@@ -41,6 +41,7 @@ span.text-content span{
 }
 
 .nav{
+    font-family: Roboto Slab;
     background-color: black;
     color: gray;
     font-size: 11px;
@@ -177,6 +178,7 @@ h1{
     width: 100%; 
 }
 
+/*
 .wostockpanel p{
     color: white;
     position: absolute; 
@@ -185,10 +187,11 @@ h1{
     width: 100%; 
     font: bold 22px/45px Helvetica, Sans-Serif; 
     letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
+    background: rgb(0, 0, 0);  fallback color 
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
 }
+*/
 
 .stuffthebuspanel{
     text-align: center;
@@ -229,7 +232,7 @@ h1{
     left: 0; 
     width: 100%; 
 }
-
+/*
 .snowballbanner p{
     color: white;
     position: absolute; 
@@ -238,10 +241,10 @@ h1{
     width: 100%; 
     font: bold 22px/45px Helvetica, Sans-Serif; 
     letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
+    background: rgb(0, 0, 0); 
     background: rgba(0, 0, 0, 0.7);
     padding: 10px; 
-}
+}*/
 
 /*contact*/
 
