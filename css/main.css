@@ -1,3 +1,16 @@
+@media (max-width: @screen-xs){
+    body{font-size: 10px;}
+}
+
+@media (max-width: @screen-sm){
+    body{font-size: 14px;}
+}
+
+h1{
+    font-size: 4em;
+    font-family: Roboto Slab;
+}
+
 #header{
     margin-bottom: 0px;
 }
@@ -92,6 +105,13 @@ ul li a{
     width: 100%;
 }
 
+#donate{
+    color:white;
+}
+
+#donate a:active{
+    text-decoration: none;
+}
 /*about*/
 .panel{
     /*	text-align: center;*/
@@ -127,9 +147,8 @@ ul li a{
     text-align: center;
 }
 
-h1{
-    font-family: Roboto Slab;
-}
+
+
 
 .wostockpanel h1{
     color: white;
@@ -139,20 +158,6 @@ h1{
     width: 100%; 
 }
 
-/*
-.wostockpanel p{
-    color: white;
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    font: bold 22px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0);  fallback color 
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
-}
-*/
 
 .stuffthebuspanel{
     text-align: center;
@@ -165,19 +170,6 @@ h1{
     top: 130px; 
     left: 0; 
     width: 100%; 
-}
-
-.stuffthebuspanel p{
-    color: white;
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    font: bold 22px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); /* fallback color */
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
 }
 
 .snowballbanner{
@@ -193,19 +185,6 @@ h1{
     left: 0; 
     width: 100%; 
 }
-/*
-.snowballbanner p{
-    color: white;
-    position: absolute; 
-    top: 200px; 
-    left: 0; 
-    width: 100%; 
-    font: bold 22px/45px Helvetica, Sans-Serif; 
-    letter-spacing: -1px;  
-    background: rgb(0, 0, 0); 
-    background: rgba(0, 0, 0, 0.7);
-    padding: 10px; 
-}*/
 
 /*contact*/
 
