@@ -20,11 +20,7 @@ h1{
     font-family: Roboto Slab;
 }
 
-ul li a{
-    color: white;
-}
-
-.navbar a{
+.navbar-nav a{
     /*	color: #528401;*/
     color: white;
     font-weight: bold;
@@ -44,6 +40,10 @@ ul li a{
     display: inline;
     margin-right: 65px;
     margin-left: 65px;
+}
+
+#navbuttons{
+    color: white;
 }
 
 /*home*/
