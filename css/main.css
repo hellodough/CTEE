@@ -6,6 +6,45 @@
     body{font-size: 14px;}
 }
 
+.navbar-default .navbar-nav>li>a {
+    color: #FFFFFF;
+}
+
+@media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
+body{
+    height: 100%;
+}
+
+#push,
+      #footer {
+        height: 60px;
+      }
+
+ #wrap {
+        min-height: 100%;
+        height: auto !important;
+        height: 100%;
+        /* Negative indent footer by it's height */
+        margin: 0 auto -60px;
+      }
+
+@media (max-width: 767px) {
+        #footer {
+          margin-left: -20px;
+          margin-right: -20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
+      }
+
 h1{
     font-size: 4em;
     font-family: Roboto Slab;
@@ -70,6 +109,8 @@ h1{
     color: black;
     text-align: center;
     bottom: 0px;
+    width: 100%;
+    position: absolute;
 }
 
 #learn-more h3{
