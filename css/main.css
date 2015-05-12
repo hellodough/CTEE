@@ -50,6 +50,10 @@ h1{
     font-family: Roboto Slab;
 }
 
+h4{
+    font-family: Roboto Slab;
+}
+
 #header{
     margin-bottom: 0px;
 }
@@ -66,6 +70,7 @@ h1{
     text-transform: uppercase;
 }
 
+
 .navbar a:hover{
     color: #eff358;
     text-decoration: none;
@@ -77,9 +82,11 @@ h1{
 
 .navbar li{
     display: inline;
-    margin-right: 65px;
-    margin-left: 65px;
+    margin-right: 10px;
+    margin-left: 30px;
 }
+
+
 
 #navbuttons{
     color: white;
@@ -95,6 +102,7 @@ h1{
 
 .jumbotron{
     background-image: url('http://upload.wikimedia.org/wikipedia/commons/d/dd/Lake_Oku_Cameroon.jpg');
+/*    background-image: url('../img/mainImage.jpg');*/
     color: white;
     font-family: Pacifico;
     height: 700px;
@@ -105,17 +113,26 @@ h1{
     top: 20px;
 }
 
-#footer{
-    color: black;
-    text-align: center;
-    bottom: 0px;
-    width: 100%;
-    position: absolute;
+.homeButton{
+    font-family: Roboto Slab; 
+    background: #af2d45; 
+    color: white; 
+    box-shadow: 5px 0 0 #af2d45, -5px 0 0 #af2d45 ;
+}
+
+.homeButton:hover{
+    background: black;
+    box-shadow: 5px 0 0 black, -5px 0 0 black;
+}
+
+a:hover{
+    text-decoration: none;
 }
 
 #learn-more h3{
     color: #528401;
     font-family: Arvo;
+    
 }
 
 #learn-more p{
@@ -137,7 +154,6 @@ h1{
     /*	background-color: #e6dde1;*/
     background-color: black;
     color: white;
-    height: 250px;
     border-top: 1px solid #dbdbdb;
     text-align: left;
     min-height: 100px;
@@ -235,4 +251,20 @@ h1{
     margin-left: 400px;
     margin-top: 40px;
     margin-bottom: 40px;
+}
+
+/*photo*/
+
+.hidden{
+    visibility: hidden;
+}
+
+button{
+    background:transparent;
+    border: none;
+}
+
+.fixFooter{
+    position: absolute;
+    bottom: 0px;
 }
